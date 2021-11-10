@@ -1,0 +1,29 @@
+
+html {
+    font-family: roboto ;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: auto;
+    background-color: magenta;
+}
+
+.flex-container div {
+    background-color: yellow;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    border: cyan 2px solid;
+    border-radius: 5px;
+}
