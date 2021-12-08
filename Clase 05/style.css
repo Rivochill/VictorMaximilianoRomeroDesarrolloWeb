@@ -1,10 +1,25 @@
 
 html {
     font-family: roboto ;
+    background-color: lightgray ;
+    background: url("gota.png");
 }
 
 body {
     background-color: rgb(241, 241, 241);
+}
+
+h1 {
+    padding: 3px 1px;
+    border: powderblue 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+p{
+    border: red 2px solid;
+    margin: 20px;
+    padding-left: 20px;
 }
 
 

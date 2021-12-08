@@ -1,0 +1,21 @@
+.customButton {
+    
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration-color: white;
+    border-top-left-radius: 0px 20px;
+    border-bottom-right-radius: 0px 20px;
+}
+
+.customButton:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    transition: 0.5s ease;
+    background-color: red;
+    
+}
+
+.customButton:visited{
+    text-decoration-color: white;
+}
